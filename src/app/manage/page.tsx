@@ -35,6 +35,10 @@ export default function ManagePage() {
     }
   };
 
+  const handleResetUserList = () => {
+    sendMessage(JSON.stringify({ type: "ClearAllCathy" }));
+  };
+
   return (
     <div className="p-6">
       <div className="flex justify-between items-center mb-4">
@@ -74,6 +78,15 @@ export default function ManagePage() {
             />
           </div>
         ))}
+      </div>
+      {/* 왼쪽 아래 userList 초기화 버튼 */}
+      <div className="fixed bottom-4 left-4">
+        <button
+          onClick={handleResetUserList}
+          className="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600"
+        >
+          초기화
+        </button>
       </div>
       {/* 새로운 버튼들 */}
       <div className="fixed bottom-4 right-4 space-y-2 flex flex-col items-end">
