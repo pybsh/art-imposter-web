@@ -4,6 +4,8 @@
 
 > <b>생성형 인공지능 이미지로 즐기는 라이어 게임</b>
 
+<img width="700" alt="f24a319c-9547-4e2d-bd03-58eaa6e17fee" src="https://github.com/user-attachments/assets/bccb4c8b-19c2-424b-ae2f-40f62842f01b" />
+<img width="700" alt="303c8df0-63b2-4a02-99d0-e0de7d4ba366" src="https://github.com/user-attachments/assets/5c03a354-de84-4f1d-9d34-bb25ff24c030" />
 
 ## 프로젝트 소개
 
@@ -35,4 +37,4 @@
 
 ## 기타
 - 이 레포지토리는 **웹 프론트엔드** 레포지토리입니다.
-- 백엔드 서버 레포지토리는 [art-imposter-server](https://github.com/pybsh/art-imposter-server)에 있습니다.
+- 백엔드 서버 레포지토리는 [art-imposter-server](https://github.com/pybsh/art-imposter-server)입니다.
