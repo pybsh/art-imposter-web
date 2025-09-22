@@ -12,7 +12,7 @@ export default function Home() {
   };
 
   const navigateToDrawing = () => {
-    if(name != "") router.push("/drawing");
+    if(name != "") router.push("/drawing.html");
     console.log("test");
   };
 

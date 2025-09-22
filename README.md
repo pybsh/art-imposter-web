@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Art Imposter Web
 
-## Getting Started
+<p align="center"><a href="https://github.com/pybsh/art-imposter-web/blob/main/README.md">한국어</a> · <a href="https://github.com/pybsh/art-imposter-web/blob/main/README.en_US.md">English</a></p>
 
-First, run the development server:
+> <b>생성형 인공지능 이미지로 즐기는 라이어 게임</b>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 프로젝트 소개
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 개요
+- 플랫폼: 웹
+- 사용 기술: Node.js, React, Next.js, zustand, WebSocket
+- 제작 기간: 3일
+- 제작 인원: 1명
+  <table>
+        <tr>
+        <td align="center">
+            <a href="https://github.com/pybsh">
+            <img src="https://avatars.githubusercontent.com/u/59782214?v=4?s=100" width="100px;" alt=""/><br /><sub><b>pybsh</b></sub></a><br />
+            <a href="#" title="코드 작성">💻</a>
+        </td>
+        </tr>
+    </table>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 소개
+생성형 인공지능 이미지로 라이어 게임 놀이를 진행할 수 있는 프로젝트입니다. <br/>
+학과 홍보 프로젝트 공모전 제출을 위해 제작한 프로젝트입니다. <br/>
+어떻게 하면 중학생들이 흥미있게 인공지능을 사용해 볼 수 있을까 생각해 제작하게 되었습니다.
 
-## Learn More
+### 주요 기능
+- 인공지능 이미지 생성 기능
+- 라이어 게임의 기본 기능
+  - 주제 선정
+  - 라이어 선별 등
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 기타
+- 이 레포지토리는 **웹 프론트엔드** 레포지토리입니다.
+- 백엔드 서버 레포지토리는 [art-imposter-server](https://github.com/pybsh/art-imposter-server)에 있습니다.
